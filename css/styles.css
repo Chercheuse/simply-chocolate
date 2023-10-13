@@ -707,7 +707,7 @@ ul > li {
   gap: 8px;
 }
 
-.form-input {
+.footer-form-input {
   width: 313px;
   height: 52px;
   padding: 14px 24px;
@@ -876,4 +876,8 @@ ul > li {
 
 .textarea::placeholder {
   color: #4040404D;
+}
+
+.is-open {
+  display: none;
 }
