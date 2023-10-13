@@ -33,7 +33,7 @@
                         <ul class="social-media-links">
                             <li class="social-media-link"><a href='#' target='_blank' rel="noopener noreferrer">
                                     <svg width="24" height="24" class="social-link-icon">
-                                        <use href="./images/icons.svg#facebook-icon"></use>
+                                        <use href="./images/icons.svg#facebook-icon" class="social-link-icon"></use>
                                     </svg>
                                 </a></li>
                             <li class="social-media-link">
@@ -322,8 +322,144 @@
             </div>
         </section>
 
-    </main>
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="testimonials-title"><span class="title-part">Chocolate</span> is loved</h2>
+                <ul class="testimonials-list">
+                    <li class="testimonials-list-item">
+                        <img src="./images/testimonials-victoria.png" alt="testimonials women"
+                            class="testimonials-person-image">
+                        <h3 class="testimonials-person-name">Victoria Dobrzhanska</h3>
+                        <p class='testimonials-person-feedback'>I love this chocolate bar. Perfect combination of light
+                            crispy wafer, covered in a thin layer chocolate.</p>
+                    </li>
+                    <li class="testimonials-list-item">
+                        <img src="./images/testimonials-nazar.png" alt="testimonials person man"
+                            class="testimonials-person-image">
+                        <h3 class="testimonials-person-name">Nazar Babenko</h3>
+                        <p class='testimonials-person-feedback'>This chocolate confection is a delight! A delight! The
+                            wafer is light and crisp, the hazelnut cream is smooth, and the
+                            chocolate is good.</p>
+                    </li>
+                    <li class="testimonials-list-item">
+                        <img src="./images/testimonials-olena.png" alt="testimonials women"
+                            class="testimonials-person-image">
+                        <h3 class="testimonials-person-name">Olena Kampusch</h3>
+                        <p class='testimonials-person-feedback'>Chocolate is a family favourite treat. Love the
+                            delicious smooth chocolate and the creaminess inside. The wafer is soft
+                            but crunchy.</p>
+                    </li>
+                </ul>
 
+                <a href="#" class="testimonials-leave-review">Leave a review</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <h2 class="footer-title"><span class='footer-title-part'>Chocolate</span> a delicious cure for a bad
+                        day</h2>
+                    <div class="contacts">
+                        <div class="social-media">
+                            <h4 class="social-title">Social networks</h4>
+                            <ul class="footer-media-links">
+                                <li class="footer-media-link"><a href='#' target='_blank' rel="noopener noreferrer">
+                                        <svg width="24" height="24" class="footer-link-icon">
+                                            <use href="./images/icons.svg#footer-facebook-icon"></use>
+                                        </svg>
+                                    </a></li>
+                                <li class="footer-media-link">
+                                    <svg width="24" height="24" class="footer-link-icon">
+                                        <use href="./images/icons.svg#footer-instagram-icon"></use>
+                                    </svg>
+                                </li>
+                                <li class="footer-media-link">
+                                    <svg width="24" height="24" class="footer-link-icon">
+                                        <use href="./images/icons.svg#footer-twitter-icon"></use>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <address class="contacts-info">
+                            <h4 class="contact-title">Contact us</h4>
+                            <ul class="contact-info-list">
+                                <li class="contact-info-item"><a href="tel:+380684439426" class="contact-link">+380 (68)
+                                        443-94-26</a>
+                                </li>
+                                <li class="contact-info-item"><a href="mailto:simplychoc@gmail.com"
+                                        class="contact-link">simplychoc@gmail.com</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+
+                <hr class="devider">
+
+                <div class="nav-form">
+
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item">Home</li>
+                        <li class="footer-nav-item">How it's made?</li>
+                        <li class="footer-nav-item">Chocolate is loved</li>
+                    </ul>
+
+                    <form class="footer-form">
+                        <input type="email" name="user-email" placeholder="Enter your email" class="form-input">
+                        <button type="submit" class="footer-subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="modal-close-btn">
+                <svg width="28" height="28" class="svg-close-container">
+                    <use href="./images/icons.svg#close-icon"></use>
+                </svg>
+            </button>
+            <div class="modal-wrapper">
+                <p class='modal-title'>LEAVE A REVIEW ABOUT <span class="modal-title-part">OUR CHOCOLATE</span></p>
+                <form action="POST" class="modal-form">
+                    <div class="input-wrapper">
+                        <label for="user-name" class="input-label">Name</label>
+                        <input type="text" name="user-name" class="form-input" id="user-name">
+                        <svg width="24" height="24" class="input-svg-icon">
+                            <use href="./images/icons.svg#user-icon"></use>
+                        </svg>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="user-email" class="input-label">Email</label>
+                        <input type="email" name="user-email" class="form-input" id="user-email">
+                        <svg width="24" height="24" class="input-svg-icon">
+                            <use href="./images/icons.svg#mail-icon"></use>
+                        </svg>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="user-phone" class="input-label">Phone number</label>
+                        <input type="tel" name="user-phone" class="form-input" id="user-phone">
+                        <svg width="24" height="24" class="input-svg-icon">
+                            <use href="./images/icons.svg#phone-icon"></use>
+                        </svg>
+                    </div>
+                    <label for="comment" class="input-label">Comment</label>
+                    <textarea name="comment" id="comment" class="form-input textarea"
+                        placeholder="Enter text"></textarea>
+                    <input type="checkbox" name="modal-checkbox" id="modal-check" class="input-chekbox visually-hidden">
+                    <label for="modal-check" class="modal-check-label"><span class="false-checkbox"><svg width="10"
+                                height="10" class="svg-check-icon">
+                                <use href="./images/icons.svg#check-icon"></use>
+                            </svg></span>I accept the terms and conditions of the <a href='#' class="terms-link">
+                            Privacy Policy</a></label>
+                    <button type="submit" class="modal-btn">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
